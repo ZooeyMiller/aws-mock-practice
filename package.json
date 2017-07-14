@@ -1,0 +1,33 @@
+{
+  "name": "aws-mock-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/*.spec.js | tap-spec",
+    "coverage": "istanbul cover test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZooeyMiller/aws-mock-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZooeyMiller/aws-mock-practice/issues"
+  },
+  "homepage": "https://github.com/ZooeyMiller/aws-mock-practice#readme",
+  "devDependencies": {
+    "aws-sdk-mock": "^1.7.0",
+    "istanbul": "^0.4.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.7.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.84.0"
+  }
+}
